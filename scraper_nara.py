@@ -6,7 +6,7 @@ import pandas as pd
 # 1. 설정 (인증키와 검색어)
 # 공공데이터포털에서 발급받은 Decoding 인증키를 입력하세요.
 # 직접 입력하기보다 GitHub Secrets를 쓰는 게 좋지만, 일단 여기에 넣어 테스트해봐!
-MY_API_KEY = "여기에_발급받은_인증키를_붙여넣으세요" 
+MY_API_KEY = "f6d40f87e591061160a75d151bcd1c70ef587d9c7620574258622e939db0131a" 
 
 def get_g2b_data():
     url = "http://apis.data.go.kr/1230000/BidPublicInfoService05/getBidPblancListInfoServc01"
@@ -19,7 +19,7 @@ def get_g2b_data():
         'numOfRows': '20',      # 가져올 공고 수
         'pageNo': '1',
         'inqryDiv': '1',        # 공고명 검색
-        'bidNtceNm': '보안',     # 검색 키워드 (원하는 대로 수정!)
+        'bidNtceNm': '코스콤',     # 검색 키워드 (원하는 대로 수정!)
         'type': 'json'          # 결과 형식
     }
 
