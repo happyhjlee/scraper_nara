@@ -1,7 +1,7 @@
 import os
 import requests
 import datetime
-import pandas as pd
+#import pandas as pd
 
 # 1. 설정 (인증키와 검색어)
 # 공공데이터포털에서 발급받은 Decoding 인증키를 입력하세요.
